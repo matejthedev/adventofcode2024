@@ -51,14 +51,14 @@ func Test_getNumberOfObstructions(t *testing.T) {
 		want int
 	}{
 		{
-			name: "getVisitedPositions with example data",
+			name: "getNumberOfObstructions with example data",
 			args: args{
 				input: "....#.....\n.........#\n..........\n..#.......\n.......#..\n..........\n.#..^.....\n........#.\n#.........\n......#...",
 			},
 			want: 6,
 		},
 		{
-			name: "getVisitedPositions with task data",
+			name: "getNumberOfObstructions with task data",
 			args: args{
 				input: dataTxt,
 			},
